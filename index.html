@@ -3,35 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forqan Ahmed Bijapur - Automation Test Engineer</title>
+    <title>Forqan Ahmed Bijapur - Automation Test Engineer | Portfolio</title>
+    <meta name="description" content="Experienced Automation Test Engineer specializing in Web & API Test Automation. ISTQB certified with 4+ years experience at FIS Global.">
+    <meta name="keywords" content="Automation Test Engineer, QA Engineer, Selenium WebDriver, API Testing, Java, Test Automation">
+    <meta property="og:title" content="Forqan Ahmed Bijapur - Automation Test Engineer">
+    <meta property="og:description" content="Experienced Automation Test Engineer specializing in Web & API Test Automation">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav-header" id="nav-header">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h3>Forqan Ahmed</h3>
-            </div>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
-                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
-                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
-                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
-                <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
-                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
-                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="#home" aria-label="Go to homepage">Forqan Ahmed</a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <span class="theme-icon">🌙</span>
                     </button>
-            </ul>
-            <div class="nav-toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </nav>
@@ -69,26 +72,26 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <div class="about-text glass-card">
+                <div class="about-text">
                     <p>Experienced Automation Test Engineer with a strong background in both manual and automated testing, specialising in developing and executing robust automated test suites for both Web using Selenium WebDriver with Java and API testing using tools like Rest-Assured and Postman.</p>
                     <p>Skilled in designing test strategies, identifying and reporting defects, and collaborating with cross-functional teams to ensure high-quality software releases. Committed to continuous learning and staying updated with the latest testing tools and methodologies to enhance software quality, including Agile practices.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card glass-card">
-                        <h3 class="stat-number" data-target="3">0</h3>
-                        <p class="stat-label">Years Experience</p>
-                    </div>
-                    <div class="stat-card glass-card">
-                        <h3 class="stat-number" data-target="50">0</h3>
-                        <p class="stat-label">Projects Completed</p>
-                    </div>
-                    <div class="stat-card glass-card">
-                        <h3 class="stat-number" data-target="2">0</h3>
-                        <p class="stat-label">Spot Awards</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4>4+ Years</h4>
+                            <p>Experience in Test Automation</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>50+ Projects</h4>
+                            <p>Successfully Completed</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>ISTQB</h4>
+                            <p>Certified Test Engineer</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,79 +99,114 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills-section">
+    <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+            <h2 class="section-title">Skills & Expertise</h2>
             <div class="skills-grid">
-                <div class="skill-category glass-card">
-                    <h3>Languages & Databases</h3>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
                     <div class="skill-item">
                         <span class="skill-name">Java</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="90"></div>
+                            <div class="skill-progress" data-progress="90"></div>
                         </div>
+                        <span class="skill-percent">90%</span>
                     </div>
                     <div class="skill-item">
                         <span class="skill-name">SQL</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="85"></div>
+                            <div class="skill-progress" data-progress="80"></div>
                         </div>
+                        <span class="skill-percent">80%</span>
                     </div>
                 </div>
-                
-                <div class="skill-category glass-card">
-                    <h3>Automation Testing</h3>
+
+                <div class="skill-category">
+                    <h3>Automation Tools</h3>
                     <div class="skill-item">
                         <span class="skill-name">Selenium WebDriver</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="95"></div>
+                            <div class="skill-progress" data-progress="95"></div>
                         </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Cucumber (BDD)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-skill="88"></div>
-                        </div>
+                        <span class="skill-percent">95%</span>
                     </div>
                     <div class="skill-item">
                         <span class="skill-name">Rest-Assured</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="90"></div>
+                            <div class="skill-progress" data-progress="90"></div>
                         </div>
+                        <span class="skill-percent">90%</span>
                     </div>
                     <div class="skill-item">
-                        <span class="skill-name">TestNG/JUnit</span>
+                        <span class="skill-name">TestNG</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="92"></div>
+                            <div class="skill-progress" data-progress="85"></div>
                         </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Cucumber</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
                     </div>
                 </div>
-                
-                <div class="skill-category glass-card">
-                    <h3>Frameworks & Tools</h3>
+
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
                     <div class="skill-item">
-                        <span class="skill-name">Page Object Model</span>
+                        <span class="skill-name">Jenkins</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="93"></div>
+                            <div class="skill-progress" data-progress="85"></div>
                         </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Jenkins CI/CD</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-skill="80"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">JIRA</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-skill="88"></div>
-                        </div>
+                        <span class="skill-percent">85%</span>
                     </div>
                     <div class="skill-item">
                         <span class="skill-name">Postman</span>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-skill="90"></div>
+                            <div class="skill-progress" data-progress="90"></div>
                         </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Jira</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Methodologies</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Agile/Scrum</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SDLC</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">STLC</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
                     </div>
                 </div>
             </div>
@@ -176,144 +214,269 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="experience-section">
+    <section id="experience" class="experience">
         <div class="container">
             <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item glass-card">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Software Test Analyst II</h3>
-                        <h4>FIS Global (Fidelity Information Services)</h4>
-                        <p class="timeline-period">June 2025 - Present | Bengaluru, India</p>
-                        <ul class="timeline-responsibilities">
-                            <li>Managing multiple production releases and maintaining the daily status automation reports</li>
-                            <li>Spearheaded end-to-end coordination of production releases, ensuring all deployments proceeded smoothly with minimal risk and zero critical post-release issues</li>
-                            <li>Enhanced test coverage and efficiency by refactoring outdated test cases and integrating them with updated automation frameworks</li>
-                            <li>Actively involved in release sign-off by preparing and delivering detailed QA summaries to stakeholders</li>
-                        </ul>
-                    </div>
+            <div class="experience-content">
+                <div class="company-info">
+                    <h3>FIS Global (Fidelity Information Services)</h3>
+                    <p class="company-location">Bengaluru, India</p>
+                    <p class="company-description">One of the top Fintech organisation and leading provider of solutions for merchants, banks and capital firms globally.</p>
                 </div>
                 
-                <div class="timeline-item glass-card">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Software Test Analyst I</h3>
-                        <h4>FIS Global (Fidelity Information Services)</h4>
-                        <p class="timeline-period">January 2024 – May 2025 | Bengaluru, India</p>
-                        <ul class="timeline-responsibilities">
-                            <li>Preparation of test scenarios along with test strategy and test plan creation</li>
-                            <li>Worked closely with the DevOps team to integrate automated testing into the CI/CD pipeline</li>
-                            <li>Strong understanding of the software development lifecycle (SDLC) and hands on experience with Agile methodologies</li>
-                            <li>Performed API testing using Postman and Rest-Assured, validating endpoints and automating request/response checks</li>
-                            <li>Utilised GitHub Co-pilot to assist in designing test cases and preparing documentation</li>
-                        </ul>
+                <div class="timeline">
+                    <div class="timeline-item" data-period="current">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Software Test Analyst II</h4>
+                            <p class="timeline-period">June 2025 - Present</p>
+                            <ul>
+                                <li>Managing multiple production releases and maintaining the daily status automation reports</li>
+                                <li>Spearheaded end-to-end coordination of production releases, ensuring all deployments proceeded smoothly with minimal risk and zero critical post-release issues</li>
+                                <li>Enhanced test coverage and efficiency by refactoring outdated test cases and integrating them with updated automation frameworks</li>
+                                <li>Actively involved in release sign-off by preparing and delivering detailed QA summaries to stakeholders</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="timeline-item glass-card">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Software Test Analyst E</h3>
-                        <h4>FIS Global (Fidelity Information Services)</h4>
-                        <p class="timeline-period">September 2021 – December 2023 | Bengaluru, India</p>
-                        <ul class="timeline-responsibilities">
-                            <li>Worked on custom automation solutions to support the business area/team</li>
-                            <li>Develop and apply testing processes for new and existing products to meet client needs</li>
-                            <li>Track quality assurance metrics, like defect densities and open defect counts</li>
-                        </ul>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Software Test Analyst I</h4>
+                            <p class="timeline-period">January 2024 – May 2025</p>
+                            <ul>
+                                <li>Preparation of test scenarios along with test strategy and test plan creation</li>
+                                <li>Worked closely with the DevOps team to integrate automated testing into the CI/CD pipeline</li>
+                                <li>Strong understanding of the software development lifecycle (SDLC) and hands on experience with Agile methodologies</li>
+                                <li>Performed API testing using Postman and Rest-Assured, validating endpoints and ensuring integration reliability</li>
+                                <li>Utilised GitHub Co-pilot to assist in designing test cases and preparing documentation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Software Test Analyst E</h4>
+                            <p class="timeline-period">September 2021 – December 2023</p>
+                            <ul>
+                                <li>Worked on custom automation solutions to support the business area/team</li>
+                                <li>Develop and apply testing processes for new and existing products to meet client needs</li>
+                                <li>Track quality assurance metrics, like defect densities and open defect counts</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications-section">
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Certifications & Achievements</h2>
-            <div class="certifications-grid">
-                <div class="cert-card glass-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>E-commerce Web Automation Framework</h3>
+                        <p>Developed a comprehensive automation framework for e-commerce application testing using Selenium WebDriver with Java. Implemented Page Object Model (POM) design pattern and integrated with TestNG for test execution.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">TestNG</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Cross-browser testing support</li>
+                                <li>Data-driven test execution</li>
+                                <li>Comprehensive test reporting</li>
+                                <li>CI/CD pipeline integration</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
                     </div>
-                    <h3>ISTQB Certified Test Engineer</h3>
-                    <p>International Software Testing Qualifications Board</p>
                 </div>
-                
-                <div class="cert-card glass-card">
-                    <div class="cert-icon">
-                        <i class="fab fa-java"></i>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>API Testing Suite with Rest-Assured</h3>
+                        <p>Built a robust API testing suite for RESTful services validation. Implemented automated test cases for various HTTP methods, response validation, and integration testing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Rest-Assured</span>
+                            <span class="tech-tag">TestNG</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Automated API endpoint validation</li>
+                                <li>Response schema verification</li>
+                                <li>Performance testing integration</li>
+                                <li>Detailed API test reporting</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
                     </div>
-                    <h3>Java for Advanced DSA</h3>
-                    <p>GeeksforGeeks (GFG)</p>
                 </div>
-                
-                <div class="cert-card glass-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-award"></i>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>BDD Test Framework with Cucumber</h3>
+                        <p>Designed and implemented a Behavior Driven Development (BDD) framework using Cucumber with Java. Created feature files in Gherkin syntax for better collaboration between technical and non-technical stakeholders.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Cucumber</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">JUnit</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>BDD approach with Gherkin syntax</li>
+                                <li>Step definition libraries</li>
+                                <li>Scenario outline for data-driven testing</li>
+                                <li>Integration with CI/CD tools</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
                     </div>
-                    <h3>Spot Awards (2x)</h3>
-                    <p>FIS Global - For exemplary maintenance of automation scripts and enhancing test reliability</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Test Management Dashboard</h3>
+                        <p>Created a custom test management dashboard to track QA metrics including defect densities, test execution status, and automation coverage. Built using web technologies with real-time data visualization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Real-time test metrics visualization</li>
+                                <li>Defect tracking and reporting</li>
+                                <li>Automation coverage analysis</li>
+                                <li>Interactive charts and graphs</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Mobile App Testing Framework</h3>
+                        <p>Developed a mobile application testing framework for both Android and iOS platforms. Implemented automated test scripts for functional and regression testing with cross-platform compatibility.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Appium</span>
+                            <span class="tech-tag">TestNG</span>
+                            <span class="tech-tag">Android Studio</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Cross-platform mobile testing</li>
+                                <li>Automated gesture recognition</li>
+                                <li>Device farm integration</li>
+                                <li>Parallel test execution</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--sm btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" class="btn btn--sm btn--primary" target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <div class="contact-info glass-card">
-                    <h3>Contact Information</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:furqana043@gmail.com" class="contact-link">furqana043@gmail.com</a>
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing new opportunities in test automation and quality assurance. Feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>furqana043@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8431806108</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Hubli, Karnataka, India</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+918431806108" class="contact-link">+91 8431806108</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Hubli, Karnataka, India</span>
-                    </div>
+
                     <div class="social-links">
-                        <a href="#" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                            LinkedIn
+                        <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <span>LinkedIn</span>
                         </a>
-                        <a href="#" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                            GitHub
+                        <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <span>GitHub</span>
                         </a>
                     </div>
                 </div>
-                
-                <div class="contact-form glass-card">
-                    <h3>Send a Message</h3>
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn--primary btn--full-width" id="submit-btn">Send Message</button>
-                        <div id="form-message" class="form-message" style="display: none;"></div>
-                    </form>
-                </div>
+
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name *</label>
+                        <input type="text" id="name" name="name" class="form-control" required aria-describedby="name-error">
+                        <div class="error-message" id="name-error" role="alert"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" id="email" name="email" class="form-control" required aria-describedby="email-error">
+                        <div class="error-message" id="email-error" role="alert"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject *</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required aria-describedby="subject-error">
+                        <div class="error-message" id="subject-error" role="alert"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required aria-describedby="message-error"></textarea>
+                        <div class="error-message" id="message-error" role="alert"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    <div class="form-success" id="form-success" role="alert" style="display: none;">
+                        Thank you for your message! I'll get back to you soon.
+                    </div>
+                </form>
             </div>
         </div>
     </section>
