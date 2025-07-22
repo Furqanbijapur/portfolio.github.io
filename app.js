@@ -118,7 +118,13 @@ function initTypingAnimation() {
         'Selenium WebDriver Specialist',
         'Agile Testing Practitioner'
     ];
-    
+    function record(data) {
+    if (!data || !data.sentence) {
+        console.error("Data or data.sentence is undefined!", data);
+        return;
+    }
+    // Now safe to use data.sentence
+}
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
