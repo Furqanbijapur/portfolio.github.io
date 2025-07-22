@@ -977,12 +977,13 @@ html {
 }
 
 .hero-photo {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   transition: transform var(--duration-normal) var(--ease-standard);
+  /* Optional: Add margin if needed for spacing */
 }
 .hero-photo svg {
   position: absolute;
