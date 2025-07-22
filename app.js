@@ -118,12 +118,8 @@ function initTypingAnimation() {
         'Selenium WebDriver Specialist',
         'Agile Testing Practitioner'
     ];
-    function record(data) {
-    if (!data || !data.sentence) {
-        console.error("Data or data.sentence is undefined!", data);
-        return;
-    }
-    // Now safe to use data.sentence
+   if(obj && obj.sentence) {
+    // Safe to access obj.sentence
 }
     let textIndex = 0;
     let charIndex = 0;
