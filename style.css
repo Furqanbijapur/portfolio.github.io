@@ -977,8 +977,8 @@ html {
 }
 
 .hero-photo {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
